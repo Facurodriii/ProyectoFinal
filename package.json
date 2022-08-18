@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "concurrently": "^7.2.1"
+  },
+  "name": "ccc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently --kill-others \"cd Back & npm start\" \"cd Front & npm start\""
+  },
+  "author": "Facundo",
+  "license": "ISC",
+  "description": ""
+}
